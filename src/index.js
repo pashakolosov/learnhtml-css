@@ -13,11 +13,11 @@ emitter.on('message', () => console.log('message is work'));
 
 emitter.on('email', () => console.log('email is work'));
 
-while (true) {
+
 interface.question('enter 1="message" or 0="email"', (data) => {
     data === 1 ? emitter.emit('message') : emitter.emit('email');
     });
-};
+
 
 
 
