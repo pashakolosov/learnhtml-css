@@ -1,0 +1,27 @@
+{
+  "name": "kt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "nodemon": ""
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "nodemon": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashakolosov/learnhtml-css.git"
+  },
+  "author": "Pasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashakolosov/learnhtml-css/issues"
+  },
+  "homepage": "https://github.com/pashakolosov/learnhtml-css#readme"
+}
